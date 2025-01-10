@@ -36,10 +36,6 @@ module.exports = {
         require('./rspack-userscript-plugin.cjs')({
             name,
             header: {
-                name: name,
-                version: version,
-                author: author.name,
-                description: description,
                 include: [
                     'https://example.com/*'
                 ],
